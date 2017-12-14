@@ -1,0 +1,262 @@
+/* General */
+	body {
+		font-family: helvetica;
+		font-size: 10pt;
+		padding: 0;
+		margin: 0;
+		background-color: #b2f8ff;
+	}
+
+	.container {
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+	}
+
+/* Header */
+	header {
+		background: #175966;
+		padding-top: 10px;
+		min-height: 40px;
+		border-bottom: solid 3px #00e9ff;
+	}
+
+
+/* Navigation Bar */
+	header ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+/* NavigationBar Position */
+	header nav {
+		float: right;
+	}
+
+/* Navigation Bar Links */
+	header a {
+		color: white;
+		font-size: 13pt;
+		text-decoration: none;
+		text-transform: uppercase;
+		-webkit-transition: font-size 1s;
+		text-shadow: 2px 2px black;
+	}
+
+/* Hovered Navigation Bar Links */
+	header a:hover {
+		font-weight: bold;
+		font-size: 14pt;
+	}
+
+/* Active Navigation Bar Link */
+	a.active {
+		color: #00e9ff;
+		font-weight: bold;
+		text-shadow: 2px 2px black;
+		-webkit-transition: color font-size 1s;
+	}
+
+/* Hovered Active Navigation Bar Link */
+	a.active:hover {
+		color: #9efdff;
+		font-size: 14pt;
+	}
+
+/* Navigation Button */
+	header li {
+		float: left;
+		display: inline-block;
+		padding: 0 7px 0 7px;
+	}
+
+/* Main Image */
+	header #mainImage {
+		float: left;
+	}
+
+/* Main Header, "Dublin GAA" */
+	header h1 {
+		margin: 0;
+		font-size: 20pt;
+		font-family: arial;
+		color: #00e9ff;
+		margin-top: 15px;
+		text-shadow: 2px 2px black;
+	}
+
+/* "GAA" Span */
+
+	#GAA {
+		text-shadow: 2px 2px black;color: #ffffff;
+		text-shadow: 2px 2px black;
+	}
+
+/* Main Image */
+	#mainImage {
+		min-height: 290px;
+		background: url("../images/display.jpg") no-repeat -100px;
+		text-align: center;
+		color: white;
+		}
+	
+/* Main Image Title, "Celebrating The Triumphs Of The Boys In Blue" */
+	#mainImage h1 {
+		margin-top: 50px;
+		font-size: 38pt;
+		margin-bottom: 15px;
+		text-shadow: 2px 2px black;
+		background-color: rgba(0, 102, 102, 0.7);
+		padding: 2px;
+	}
+	
+/* Main Image Subtitle, "Your one stop shop..." */
+	#mainImage p {
+		font-size: 16pt;
+		text-shadow: 2px 2px black;
+		background-color: rgba(0, 102, 102, 0.7);
+		padding: 3px;
+	}
+
+/* Sign Up Section */
+	#sign_up_section {
+		padding: 15px;
+		color: #9ee6ff;
+		background: #25bece;
+		border-top: solid 3px #175966;
+		border-bottom: solid 3px #00e9ff;
+		text-shadow: 1px 1px 1px black;
+		margin-bottom: 0;
+		display: flex;
+	}
+
+/* Sign Up Form */
+	#sign_up_section form {
+		margin: auto;
+	}
+
+/* Form Header, "Don't Have An Account...?" */
+	#sign_up_section h1 {
+		float: left;
+		font-size: 11pt;
+		text-decoration: underline;
+		padding: 0;
+		margin: 0;
+	}
+	
+/* Form Labels */
+	#sign_up_section h2 {
+		font-size: 12pt;
+		text-align: left;
+		padding: 0;
+		margin: 0;
+	}
+
+/* Table */
+	#sign_up_section table, td {
+		padding-top: 0px;
+		border-collapse: collapse;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		-webkit-border-radius: 15px;
+		text-align: center;
+		margin-top: 0;
+	}
+
+/* Table Button */
+	#sign_up_section button {
+		flex: 1;
+		margin: 15px;
+		background: #9ee6ff;
+		padding: 5px;
+		color: black;
+		font-family: helvetica;
+		text-transform: uppercase;
+		font-weight: bold;
+		border-radius: 15px;
+		border: 1px solid #006387;
+	}
+
+/* Hovered Table Button */	
+	#sign_up_section button:hover {
+		cursor: pointer;
+	}
+	
+/* Form Container */	
+	.form_container {
+		margin-top: 0;
+		padding: 20px;
+		padding-bottom: 40px;
+		flex-wrap: wrap;
+		background: #175966;
+		border-radius: 15px;
+		box-shadow: 2px 2px black;
+		flex: 0.2;
+	}
+	
+/* Link Container */	
+	.link_container {
+		display: flex;
+		margin: 0;
+		margin-top: 0;
+		padding-top: 0;
+		flex-wrap: wrap;
+		flex: 1;
+	}
+	
+	#general_container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+/* Link Boxes */	
+	.link_box {
+		border-radius: 20px;
+		padding: 5px;
+		margin-bottom: 0;
+		text-align: center;
+		background: #175966;
+		margin: 10px;
+		margin-top: 0px;
+		box-shadow: 2px 2px black;
+		flex: 1;
+		flex-direction: column;
+		height: 100%;
+	}
+		
+/* Link Titles */	
+	.link_box h3 {
+		padding-top: 0;
+		margin-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		font-size: 18pt;
+		text-decoration: underline;
+		flex: 1;
+	}
+
+/* Link Descriptions */	
+	.link_box p {
+		flex: 1;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	
+/* Link Images */	
+	.img {
+		height: 70%;
+		width: 70%;
+		padding: 0;
+		margin: auto;
+		flex: 1;
+	}
+
+/* Footer */	
+footer {
+	background: #175966;
+	border-top: solid 3px #00e9ff;
+	text-align: center;
+	color: #00e9ff;
+	padding: 30px;
+}
