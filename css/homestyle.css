@@ -12,6 +12,16 @@
 		margin: auto;
 		overflow: hidden;
 	}
+	
+/* Footer */	
+	footer {
+		background: #175966;
+		border-top: solid 3px #00e9ff;
+		text-align: center;
+		color: #00e9ff;
+		padding: 30px;
+	}
+
 
 /* Header */
 	header {
@@ -251,12 +261,5 @@
 		margin: auto;
 		flex: 1;
 	}
-
-/* Footer */	
-footer {
-	background: #175966;
-	border-top: solid 3px #00e9ff;
-	text-align: center;
-	color: #00e9ff;
-	padding: 30px;
-}
+	
+	

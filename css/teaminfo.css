@@ -1,0 +1,159 @@
+/* General */
+	body {
+		font-family: helvetica;
+		font-size: 10pt;
+		padding: 0;
+		margin: 0;
+		background-color: #b2f8ff;
+	}
+
+	.container {
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+	}
+	
+/* Footer */	
+	footer {
+		background: #175966;
+		border-top: solid 3px #00e9ff;
+		text-align: center;
+		color: #00e9ff;
+		padding: 30px;
+	}
+
+
+/* Header */
+	header {
+		background: #175966;
+		padding-top: 10px;
+		min-height: 40px;
+		border-bottom: solid 3px #00e9ff;
+	}
+
+
+/* Navigation Bar */
+	header ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+/* NavigationBar Position */
+	header nav {
+		float: right;
+	}
+
+/* Navigation Bar Links */
+	header a {
+		color: white;
+		font-size: 13pt;
+		text-decoration: none;
+		text-transform: uppercase;
+		-webkit-transition: font-size 1s;
+		text-shadow: 2px 2px black;
+	}
+
+/* Hovered Navigation Bar Links */
+	header a:hover {
+		font-weight: bold;
+		font-size: 14pt;
+	}
+
+/* Active Navigation Bar Link */
+	a.active {
+		color: #00e9ff;
+		font-weight: bold;
+		text-shadow: 2px 2px black;
+		-webkit-transition: color font-size 1s;
+	}
+
+/* Hovered Active Navigation Bar Link */
+	a.active:hover {
+		color: #9efdff;
+		font-size: 14pt;
+	}
+
+/* Navigation Button */
+	header li {
+		float: left;
+		display: inline-block;
+		padding: 0 7px 0 7px;
+	}
+
+/* Main Image */
+	header #mainImage {
+		float: left;
+	}
+
+/* Main Header, "Dublin GAA" */
+	header h1 {
+		margin: 0;
+		font-size: 20pt;
+		font-family: arial;
+		color: #00e9ff;
+		margin-top: 15px;
+		text-shadow: 2px 2px black;
+	}
+
+/* "GAA" Span */
+
+	#GAA {
+		text-shadow: 2px 2px black;color: #ffffff;
+		text-shadow: 2px 2px black;
+	}
+	
+.text_container {
+	display: flex;
+	background: #5696ff;
+	margin: 30px;
+	padding: 15px;
+	padding-left: 15px;
+	text-align: center;
+	border: 1px solid #00fff2;
+}
+
+.col1 {
+	flex: 1;
+}
+
+.col2 {
+	flex: 1;
+}
+
+.col3 {
+	flex: 1;
+	
+}
+	
+.textwrap {
+	height: 100%;
+	width: 100%;
+	background: #5696ff;
+	border-radius: 20px;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.banner {
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	display: flex;
+	width: 100%;
+	background: #99bfff;
+	border: 1px solid #00fff2;
+}
+
+#oldgaa {
+	margin: auto;
+	padding: 15px;
+}
+
+
+#main_title {
+	font-size: 15pt;
+	margin: auto;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px black;
+}
